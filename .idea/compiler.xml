@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="pom.xml" target="20" />
+      <module name="pom.xml.main" target="20" />
+      <module name="pom.xml.test" target="20" />
+      <module name="src" target="20" />
+      <module name="src.main" target="20" />
+      <module name="src.test" target="20" />
+      <module name="untitled" target="20" />
+      <module name="untitled.main" target="20" />
+      <module name="untitled.test" target="20" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
