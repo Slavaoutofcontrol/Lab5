@@ -13,7 +13,7 @@ public class RemoveByIdCommand implements Command{
     public void execute(String[] args) {
         if (args.length == 2){
             try {
-                int id = Integer.parseInt(args[1]);
+                long id = Long.parseLong(args[1]);
                 boolean flag = false;
                 for (Movie movie : collectionManager.getMovies()){
                     if (movie.getId() == id) {
